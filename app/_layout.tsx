@@ -15,6 +15,8 @@ export default function RootLayout() {
 
           <Stack.Screen name="sign-up" options={{ headerShown: false }} />
 
+          <Stack.Screen name="language-mode" options={{headerShown: false}}/>
+
         </Stack>
         <StatusBar style="auto" />
       </AuthProvider>

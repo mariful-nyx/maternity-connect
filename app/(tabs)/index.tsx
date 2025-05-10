@@ -24,6 +24,10 @@ export default function HomeScreen() {
         <Button title='logout' onPress={handleLogout}/>
 
         <Button title='signup' onPress={toSignup}/>
+        
+        <Button title='lang' onPress={()=>router.push('/language-mode')}/>
+        <Button title='aavater' onPress={()=>router.push('/avater-onboarding')}/>
+
       </Wrapper>
     </SafeAreaView>
   );
